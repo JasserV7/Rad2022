@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rad2022.View.Page2">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            
+            <Label Text="{Binding nombres}" VerticalOptions="Center"/>
+
+            <Label Text="{Binding apellidos}" VerticalOptions="Center"/>
+
+            <Label Text="{Binding telefono}" VerticalOptions="Center"/>
+
+            <Label Text="{Binding email}" VerticalOptions="Center"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

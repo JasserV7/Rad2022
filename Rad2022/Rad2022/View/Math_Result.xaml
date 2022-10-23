@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rad2022.View.Math_Result">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Resultados matematicos !" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Purple"/>
+
+            <Label x:Name="LblResultado" FontSize="Large" TextColor="CadetBlue" Text=" " VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

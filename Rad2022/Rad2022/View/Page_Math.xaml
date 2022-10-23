@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rad2022.View.Page_Math">
+    <ContentPage.Content>
+        
+        <StackLayout VerticalOptions="Center" >
+            <Label Text="Aplicacion de operaciones aritmeticas basicas!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Ingrese su primer numero" FontSize="Medium" TextColor="WhiteSmoke"/>
+            <Entry x:Name="txtNumero1" Placeholder="Ingrese un numero" PlaceholderColor="Bisque" Keyboard="Numeric"/>
+
+            <Label Text="Ingrese su segundo numero " FontSize="Medium" TextColor="WhiteSmoke"/>
+            <Entry x:Name="txtNumero2" Placeholder="Ingrese un numero" PlaceholderColor="Bisque" Keyboard="Numeric"/>
+
+            <Label Text="Seleccione la operacion a realizar.." FontSize="Medium"/>
+
+            <Picker x:Name="pkOperacion" SelectedIndexChanged="pkOperacion_SelectedIndexChanged"/>
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

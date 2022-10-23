@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rad2022.View.PageEmple">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtcodigo" Placeholder="Ingrese Codigo" Keyboard="Text" />
+            <Entry x:Name="txtnombre" Placeholder="Ingrese Nombre" Keyboard="Text" />
+            <Entry x:Name="txtapellido" Placeholder="Ingrese Apellido" Keyboard="Text" />
+            <Entry x:Name="txttelefono" Placeholder="Ingrese Numero telefonico " Keyboard="Numeric" />
+            <Entry x:Name="txtemail" Placeholder="Ingrese Email" Keyboard="Email" />
+
+            <Button x:Name="btnagregar_empple" Text="Salvar informacion" Clicked="btnagregar_empple_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
