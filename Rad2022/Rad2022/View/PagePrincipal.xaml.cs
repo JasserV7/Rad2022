@@ -33,5 +33,10 @@ namespace Rad2022.View
         {
 
         }
+
+        private async void toolmap_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new View.PageMap());
+        }
     }
 }

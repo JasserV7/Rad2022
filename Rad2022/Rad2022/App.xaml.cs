@@ -26,7 +26,7 @@ namespace Rad2022
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new View.PageProyectoPrincipal());
         }
 
         protected override void OnStart()

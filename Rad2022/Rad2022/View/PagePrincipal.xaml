@@ -4,7 +4,7 @@
              x:Class="Rad2022.View.PagePrincipal">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Agregar" x:Name="tooladd" Clicked="tooladd_Clicked"/>
-        <ToolbarItem Text="Mapa"/>
+        <ToolbarItem Text="Mapa" x:Name="toolmap" Clicked="toolmap_Clicked"/>
         
     </ContentPage.ToolbarItems>
 
